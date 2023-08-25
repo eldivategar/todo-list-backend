@@ -19,6 +19,7 @@
     ]
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.5",
     "date-and-time": "^0.14.2",
@@ -37,6 +38,7 @@
     "hashids": "^1.2.2",
     "http-errors": "~1.6.2",
     "jest": "^27.0.4",
+    "joi": "^17.9.2",
     "json5": "^2.1.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.12",
@@ -50,5 +52,8 @@
     "winston": "^3.2.1",
     "xlsx": "^0.16.9",
     "xlsx-populate": "^1.21.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.2"
   }
 }
